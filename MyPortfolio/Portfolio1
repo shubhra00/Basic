@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div class="container">
+            
+            <div class="navbar">
+            <div class="hero-section">
+                <div class="logo-container">
+                    <img src="Slogo.jpg" class="logo">
+                    <div class="logo-text">hubhra Tiwari</div>
+                </div>
+                <div class="nav-items">
+                    <div><a href="#projects">Projects</a></div>
+                    <div><a href="#Skiils">Skills</a></div>
+                    <div><a href="#Contact Me">Contact me</a></div>
+                </div>  
+            
+             
+        </div>
+        </div>
+        <div class="hero-section">
+            
+            
+            <div class="hero-section-left">
+
+                <div class="hero-section-heading">Hi! Shubhra Tiwari +91 8853862123 shubhratiwari222@gmail.com</div>
+                <div class="hero-section-heading hero-section-sub-heading">
+                    I am a <span class="role"></span>
+                </div>
+
+                <div class="hero-section-description">
+                    I am a aspiring software engineer and here is my portfolio.
+                    I have completed my b.tech from SRMCEM Lucknow. I have a devlopment skill and huge interest in Development.
+                </div>
+                <div class="btn-pink" id="btn">Hire me</div>
+            </div>
+            <div class="hero-section-right">
+
+                <div class="absolote icons icon-dots">
+                    <img src="logo.jpg" alt="" />
+                    <img src="Photo.jpeg" alt="" width="50%" height="50%"  > 
+                </div>
+                
+            </div> 
+    
+        </div>   
+        
+
+        
+    
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin ="anonymous"   ></script>
+    <script>
+        var typeData = new Typed(".role",{
+            strings: [
+                "Software engineer",
+                "Web Developer",
+                "UI-UX Designer",
+                "backend Developer",
+                "Coder",
+
+            ],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 1000,
+        });
+    </script>    
+</body>
+</html>
